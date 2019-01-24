@@ -1,0 +1,35 @@
+{
+  "name": "h5.game.server",
+  "version": "1.0.0",
+  "description": "H5游戏服务端",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/char-1/H5Game.Server.git"
+  },
+  "keywords": [
+    "pomelo",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "char-1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/char-1/H5Game.Server/issues"
+  },
+  "homepage": "https://github.com/char-1/H5Game.Server#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.5",
+    "md5": "^2.2.1",
+    "moment": "^2.21.0",
+    "mysql2": "^1.5.2",
+    "node-uuid": "^1.4.8",
+    "pomelo": "^2.2.5",
+    "sequelize": "^4.36.1"
+  }
+}
